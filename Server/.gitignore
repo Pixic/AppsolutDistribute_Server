@@ -1,0 +1,106 @@
+############## DAT255_AppsolutDistribute ################
+## user/workspace/DAT255_AppsolutDistribute/.gitignore
+#########################################################
+
+## ANDROID / JAVA
+##-------------------------------------------------------
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+## JAVA (addition to Android)
+##-------------------------------------------------------
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+## ECLIPSE
+##-------------------------------------------------------
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# Workspace folder
+.metadata/
+
+## ---- BEHÖVS DESSA ??? - START
+# # External tool builders
+# .externalToolBuilders/
+
+# # Locally stored "Eclipse launch configurations"
+# *.launch
+
+# # CDT-specific
+# .cproject
+
+# # PDT-specific
+# .buildpath
+
+# #Tooling
+# _ReSharper*/
+# *.resharper
+# [Tt]est[Rr]esult*
+
+# #Project files
+# [Bb]uild/
+## ---- BEHÖVS DESSA ??? - END
+
+
+## WINDOWS
+##-------------------------------------------------------
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+## ---- BEHÖVS DESSA ??? - START
+# # Folder config file
+# Desktop.ini
+# # Thumbnails
+# ._*
+# #OS junk files
+# [Tt]humbs.db
+# *.DS_Store
+# # Files that might appear on external disk
+# .Spotlight-V100
+# .Trashes
+# # Recycle Bin used on file shares
+# $RECYCLE.BIN/
+# # Office Temp Files
+# ~$*
+## ---- BEHÖVS DESSA ??? - END
